@@ -3,12 +3,15 @@ module knative.dev/eventing-redis
 go 1.15
 
 require (
+	github.com/alecthomas/units v0.0.0-20201120081800-1786d5ef83d4 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.3.1
-	github.com/gomodule/redigo v1.8.2
-	github.com/google/go-cmp v0.5.2
+	github.com/go-redis/redis/v8 v8.4.2
+	github.com/gomodule/redigo v1.8.3
+	github.com/google/go-cmp v0.5.3
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/stretchr/testify v1.6.1
 	go.uber.org/zap v1.16.0
+	golang.org/x/sys v0.0.0-20201207223542-d4d67f95c62d // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
