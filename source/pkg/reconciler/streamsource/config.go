@@ -61,7 +61,7 @@ func ConfigMapName() string {
 	return cm
 }
 
-// TLSConfigMapName gets the name of the tls cert ConfigMap
+// TLSConfigMapName gets the name of the tls cert Secret
 func TLSConfigMapName() string {
 	cm := os.Getenv(tlsConfigMapNameEnv)
 	if cm == "" {
